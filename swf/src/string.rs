@@ -142,7 +142,7 @@ impl SwfStr {
         if swf_version >= 6 {
             UTF_8
         } else {
-            WINDOWS_1252
+            WINDOWS_1251
         }
     }
 
