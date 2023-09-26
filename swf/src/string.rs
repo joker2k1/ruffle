@@ -1,6 +1,6 @@
 //! String type used by SWF files.
 
-pub use encoding_rs::{Encoding, SHIFT_JIS, UTF_8, WINDOWS_1252};
+pub use encoding_rs::{Encoding, SHIFT_JIS, UTF_8, WINDOWS_1251};
 use std::{borrow::Cow, fmt};
 
 /// A bstr-like string type analogous to [`str`] that's returned by SWF parsing functions:
